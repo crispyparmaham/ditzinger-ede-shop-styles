@@ -1,0 +1,51 @@
+.startseite-wrapper .teaser-box-wrap
+    grid-gap: 20px
+    display: grid
+    grid-template-columns: repeat(3,32.23%)
+    margin-top: 15px
+    width: 100%
+
+.startseite-wrapper .teaser-box-wrap .teaser-box
+    height: 250px
+    position: relative
+    width: 100%
+    border-radius: 8px
+    overflow: hidden
+
+.startseite-wrapper .teaser-box-wrap .teaser-box .teaser-overlay 
+    background: #000
+    background: linear-gradient(6deg,rgba(0,0,0,.811),hsla(0,0%,100%,))
+    height: 100%
+    position: absolute
+    width: 100%
+    z-index: 2
+    border-radius: 6px
+
+.startseite-wrapper .teaser-box-wrap .teaser-box>img
+    height: 100%!important
+    left: 0
+    -o-object-fit: cover
+    object-fit: cover
+    position: absolute
+    top: 0
+    width: 100%!important
+    z-index: 1
+
+.startseite-wrapper .teaser-box-wrap .teaser-box>div.button.button-red
+    background-color: rgba(0,0,0,.5)
+    border: none
+    bottom: 0
+    color: #fff
+    display: inline-block
+    font-family: Montserrat
+    font-size: 18px
+    left: 0
+    padding: 20px
+    position: absolute
+    text-decoration: none
+    transition: all .4s ease
+    width: calc(100% - 40px)
+    z-index: 4
+
+.startseite-wrapper .teaser-box-wrap .teaser-box:hover div.button.button-red
+    background: #0E65AF

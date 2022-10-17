@@ -1,5 +1,5 @@
 {
-  "name": "papenbroock-shop",
+  "name": "ditzinger-ede-shop-styles",
   "version": "0.0.0",
   "description": "Compiled CSS für den Papenbroock Shop",
   "main": "index.js",
@@ -9,7 +9,7 @@
   },
   "repository": {
     "type": "git",
-    "url": "github:matthiasmarx/papenbroock"
+    "url": "git+https://github.com/matthiasmarx/papenbroock.git"
   },
   "author": "Matthias Marx | Agentur 54",
   "license": "ISC",
